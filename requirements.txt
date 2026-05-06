@@ -1,0 +1,25 @@
+# API
+fastapi==0.115.0
+uvicorn[standard]==0.30.0
+
+# LLM + RAG
+langchain==0.3.0
+langchain-community==0.3.0
+langchain-huggingface==0.1.0
+ollama==0.3.0
+
+# Vector Store
+chromadb>=0.6.0  # CAMBIO: versión más nueva (sin necesidad de compilar)
+
+# Procesamiento de documentos
+pymupdf==1.24.11         # PDFs
+python-docx==1.1.0       # Word docs
+python-multipart==0.0.9  # Upload de archivos
+
+# Base de datos
+sqlalchemy==2.0.0
+aiosqlite==0.20.0
+
+# Utilidades
+pydantic-settings>=2.4.0
+python-dotenv==1.0.0
